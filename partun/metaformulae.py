@@ -23,6 +23,8 @@ for i in range(450,500):
 		xs.append(len(re.findall('\+',eq)))
 	print(np.mean(xs))
 
+
+
 #myops = {'sin': np.sin, 'cos': np.cos}
 #myops = {'tanh': np.tanh}
 #model = SINDy(dt=1, degree=1, threshold=0.05, operators=myops,
